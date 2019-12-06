@@ -4,6 +4,5 @@
 | Confer | Have a meeting in order to talk something over |
 | Apt | Naturally disposed toward. |
 
-## Images
 
 ![vocabulary](https://schoolinswag.files.wordpress.com/2015/11/vocabulary.png)
