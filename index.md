@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Mr. Park is so awesome and cool! He is the best! YEAH!!
 
 You can use the [editor on GitHub](https://github.com/ericwallas/ericwallas.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
