@@ -1,4 +1,6 @@
-## Mr. Park is so awesome and cool! He is the best! YEAH!!
+## - Mr. Park is so awesome and cool! He is the best! YEAH!!
+- this is another bullet point
+yay!
 
 You can use the [editor on GitHub](https://github.com/ericwallas/ericwallas.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
