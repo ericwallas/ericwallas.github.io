@@ -8,4 +8,4 @@
 
 ## Images
 
-! [vocabulary] (https://schoolinswag.files.wordpress.com/2015/11/vocabulary.png)
+![vocabulary](https://schoolinswag.files.wordpress.com/2015/11/vocabulary.png)
