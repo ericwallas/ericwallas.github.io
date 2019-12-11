@@ -1,3 +1,6 @@
+---
+title: Swagsite
+---
 | [Page1](/page) | [Page2](/page) |
 
 | Word | Definition |
