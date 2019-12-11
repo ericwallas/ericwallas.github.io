@@ -1,3 +1,5 @@
+| [Page1](/page) | [Page2](/page) |
+
 | Word | Definition |
 | ------ | ----------- |
 | Commission | path to data files to supply the data that will be passed into templates. |
