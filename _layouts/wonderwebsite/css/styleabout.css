@@ -1,0 +1,57 @@
+.header {
+  overflow: hidden;
+  background-color: #22C4B7;
+  padding: 20px 30px;
+  font-family: "calibri";
+  border-radius: 20px;
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+.header a:hover {
+  background-color: white;
+  color:#919191;
+}
+.header a.active {
+  background-color: white;
+  color: #919191;
+}
+.header-right {
+  float: right;
+}
+.whitebox {
+  background-color: white;
+  padding: 200px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+h1 {
+  font-family: "century gothic";
+  color: white;
+}
+p.title1 {
+  font-family: "century gothic";
+  color: #393939;
+  font-size: 30px;
+}
+p.p1 {
+  font-family: "century gothic";
+  color: #393939;
+  font-size: 15px;
+  margin-right: 450px;
+}
+
+body {background-color: #22C4B7;}
