@@ -1,0 +1,122 @@
+@font-face{
+  font-family: gothamb;
+  src: url("../fonts/gothamb.otf") format("opentype");
+}
+@font-face{
+  font-family: gothaml;
+  src: url("../fonts/gothaml.otf") format("opentype");
+}
+@font-face{
+  font-family: gothamm;
+  src: url("../fonts/gothamm.otf") format("opentype");
+}
+body{
+  font: 15px/1.5 gothamb, gothamb;
+  padding:0;
+  margin:0;
+  background-color: #22C4B7;
+  background-image: url("../img/back.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+}
+
+.header {
+  overflow: hidden;
+  padding: 20px 100px;
+  font-family: "gothamm";
+  border-radius: 10px;
+  text-shadow: 1px 1px 50px black;
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 13px;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 10px;
+  border-radius: 25px;
+  transition: all 0.5s ease-in-out;
+  text-shadow: 1px 1px 50px black;
+}
+.header a.logo {
+  font-size: 30px;
+  font-weight: bold;
+  transition: all 1s ease-in-out;
+}
+.header a.logo:hover{
+  font-size: 35px;
+  transition: all 1s ease-in-out;
+}
+.header-right a:hover {
+  background-color: #28FFEE;
+  color: white;
+  transition: all 0.4s ease;
+  text-shadow: 1px 1px 50px black;
+  padding: 15px;
+}
+.header a.active {
+  background-color: #28FFEE;
+  color: white;
+}
+.header-right {
+  float: right;
+}
+.header-right a{
+  border: 1.5px solid #28FFEE;
+}
+/* Spreading out the nav buttons */
+a.a{
+  margin-right: 10px;
+}
+a.b{
+  margin-right: 10px;
+}
+
+
+h1.title{
+  font-size: 15px;
+  text-align: center;
+  margin-top: -15px;
+  font-family: gothaml;
+  text-shadow: 1px 1px 50px black;
+}
+
+h1.title2{
+  text-align: center;
+  padding-top: 100px;
+  font-family: gothamb;
+  font-size: 25px;
+  text-shadow: 1px 1px 50px black;
+}
+
+img{
+  margin-top: 10px;
+  width: 350px;
+  height: 300px;
+  opacity: 1;
+  text-shadow: 2px 2px 50px black;
+  transition: all .2s ease-in-out;
+  border-radius: 20px;
+  padding: 10px auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.images{
+  text-align: center;
+  padding: 200px -20px;
+  width: 100%;
+}
+img:hover{
+  opacity: 0.6;
+  transition: all 0.2s ease-in-out;
+}
+.images a{
+  color: #C0C0C0;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: gothaml;
+  transition: all 0.2s ease-in-out;
+}
