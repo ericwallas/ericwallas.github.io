@@ -1,0 +1,118 @@
+@font-face{
+  font-family: gothamb;
+  src: url("../fonts/gothamb.otf") format("opentype");
+}
+@font-face{
+  font-family: gothaml;
+  src: url("../fonts/gothaml.otf") format("opentype");
+}
+@font-face{
+  font-family: gothamm;
+  src: url("../fonts/gothamm.otf") format("opentype");
+}
+body{
+  font: 15px/1.5 gothamb, gothamb;
+  padding:0;
+  margin:0;
+  background-color: #22C4B7;
+  background-image: url("../img/backaqua.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+}
+
+.header {
+  overflow: hidden;
+  padding: 20px 100px;
+  font-family: "gothamm";
+  border-radius: 10px;
+  text-shadow: 1px 1px 50px black;
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 13px;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 10px;
+  border-radius: 25px;
+  transition: all 0.5s ease-in-out;
+  text-shadow: 1px 1px 50px black;
+}
+.header a.logo {
+  font-size: 30px;
+  font-weight: bold;
+  transition: all 1s ease-in-out;
+}
+
+h1.title{
+  text-align: center;
+  margin-top: -15px;
+  font-family: gothamb;
+  text-shadow: 1px 1px 50px black;
+}
+
+h1.title2{
+  text-align: center;
+  padding-top: 100px;
+  font-family: gothaml;
+  font-size: 20px;
+  text-shadow: 1px 1px 50px black;
+}
+
+a.button1{
+  text-align: center;
+  border-radius: 20px;
+  text-decoration: none;
+  padding: 10px 20px;
+  background: transparent;
+  color:#FFFFFF;
+  transition: all 0.5s ease-in-out;
+  text-shadow: 1px 1px 50px black;
+  border: 1.5px solid #28FFEE;
+  display: block;
+  margin: 20px auto;
+  width: 7%;
+}
+a.button1:hover{
+  background-color: #28FFEE;
+  padding: 12px 22px;
+  transition: all 0.2s ease-in-out;
+}
+
+img{
+  border-radius: 20px;
+}
+
+table.icons tr td{
+  padding-left: 20px;
+  padding-right: 40px;
+}
+
+.ingredients {
+  background: rgba(0, 0, 0, 0.5);
+  padding-left: 13px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border-radius: 10px;
+}
+
+.instructions{
+  margin-top: 20px;
+  width: 52%;
+  align-content: 500px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.instructions p{
+  text-align: left;
+}
+
+@keyframes {
+  from {opacity:0.4}
+  to {opacity:1}
+}

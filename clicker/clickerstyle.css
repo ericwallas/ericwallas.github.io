@@ -1,0 +1,64 @@
+body{
+  font-family: "calibri";
+  font-size: 30px;
+  background-color: #FFFFFF;
+}
+.menu{
+  background-color: #404040;
+  margin: 0px 600px 0px 600px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 50px;
+  color: white;
+}
+button:hover,a:hover{
+  border: none;
+  transition: all 0.2s ease-in-out;
+  background-color: #404040;
+  color: white;
+  text-decoration: none;
+}
+button,a{
+  border: none;
+  text-decoration: none;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-family: "calibri";
+  font-weight: bold;
+  border-width: 0px;
+  font-size: 20px;
+  transition: all 0.2s ease-in-out;
+  color: black;
+}
+
+h1{
+  font-family: "calibri";
+  font-size: 30px;
+}
+
+.egg{
+  padding: 5px;
+  background-color: #BA7908;
+  border-radius: 50px;
+  width: 90%;
+}
+
+.popcorn{
+  padding: 5px;
+  background-color: #279BB2;
+  border-radius: 50px;
+  width: 90%;
+}
+
+.spotify{
+  padding: 5px;
+  background-color: #119517;
+  border-radius: 50px;
+  width: 90%;
+}
+
+.reset{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}

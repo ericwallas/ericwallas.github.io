@@ -1,0 +1,57 @@
+
+#login, #pw {
+  padding: 10px;
+  text-shadow: 1px 1px 50px black;
+  border: none;
+  border-radius: 50px;
+  background-color: white;
+  margin: 10px;
+  color: #373737;
+}
+
+h1 {
+  color: white;
+  font-family: "calibri";
+  font-weight: bold;
+  text-shadow: 1px 1px 50px black;
+  padding-bottom: 20px;
+}
+
+#submit {
+  padding: 10px;
+  width: 20%;
+  text-shadow: 1px 1px 50px black;
+  border: none;
+  border-radius: 50px;
+  background-color: #353535;
+  margin: 10px;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 15px;
+  transition: all 0.2s ease-in-out;
+}
+
+#submit:hover{
+  border: none;
+  transition: all 0.2s ease-in-out;
+  background-color: #5B5B5B;
+  color: white;
+  text-decoration: none;
+}
+
+.login{
+  background-color: #6A6A6A;
+  margin: 200px 600px 0px 600px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 50px;
+  text-shadow: 1px 1px 50px black;
+}
+
+h3{
+  margin-right: 110px;
+  padding: -10px;
+  margin-bottom: -2px;
+  color: white;
+  font-family: "calibri";
+}
