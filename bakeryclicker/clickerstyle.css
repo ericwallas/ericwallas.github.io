@@ -1,0 +1,127 @@
+  body{
+  background-color: #DFDFDF;
+  font-family: "calibri";
+  font-size: 30px;
+  background-image: ;
+
+}
+p{
+  width:100%;
+  text-align: center;
+}
+.menu {
+  color: white;
+  display: inline;
+}
+
+.menu button{
+  display: flex;
+}
+
+button:hover,a:hover{
+  border: none;
+  transition: all 0.2s ease-in-out;
+  background-color: #BDBDBD;
+  color: white;
+  text-decoration: none;
+}
+hr{
+  width: 20%;
+  padding-bottom: 3px;
+  background-color: #211717;
+}
+
+button,a{
+  border: none;
+  text-decoration: none;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-family: "calibri";
+  font-weight: bold;
+  border-width: 0px;
+  font-size: 15px;
+  transition: all 0.2s ease-in-out;
+  color: black;
+  display: inline-block;
+}
+
+.title{
+  background-color: #1f1f1f;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+h1{
+  font-family: "calibri";
+  font-size: 30px;
+  display: inline-block;
+}
+
+.breadOven{
+  background-color: #097C81;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.bread{
+  width: 20%;
+  padding: 5px;
+  background-color: #097C81;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.reset{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.top {
+  background-color: #1f1f1f;
+  width: 21%;
+  border-radius: 10px;
+  padding-bottom: 40px;
+
+}
+
+.top button{
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.gemsCost{
+  font-size: 20px;
+}
+
+#gemsDisplay{
+  margin-bottom: -50px;
+}
+
+.store{
+  background-color: #1f1f1f;
+  width: 21%;
+  border-radius: 10px;
+  padding-bottom: 30px;
+}
+                                                                  
+#breadSpeedStatus{
+  color: #C80E0E;
+  margin-top: -19px;
+  font-size: 23px;
+}
+
+#donutSpeedStatus{
+  color: #C80E0E;
+  margin-top: -19px;
+  font-size: 23px;
+}
+
+#cakeSpeedStatus{
+  color: #C80E0E;
+  margin-top: -19px;
+  font-size: 23px;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Huckin' Zealots | Home </title>
+  </head>
+  <link rel="stylesheet" type="text/css" href="clickerstyle.css">
+  <body>
+    <!--
+    This is where the fun begins
+  -->
+    <div class="menu">
+      <center>
+        <h1 class="title"> The Huckin' Zealots Bakery</h1><br>
+        <div class="top">
+          <div>
+            <h1 id=moneyDisplay>Money: $0</h1><br>
+            <button type=button id="moneyButton">Exchange</button>
+          </div>
+          <div>
+            <h1 id=gemsDisplay>Gems: 0</h1><br>
+            <h1 class="gemsCost">Cost: $1000</h1>
+            <button type=button id="gemsButton">Buy a Gem</button>
+          </div>
+          <!---
+          The bread block
+        -->
+      </div>
+        <div class="bread">
+          <h1> Bread </h1><br>
+          <button type="button" id="breadButton"><img src="bread.png" width="70px" height="75px"></button>
+          <p id="breadDisplay">0</p>
+        <div><h1>Upgrade Furnace</h1><br>
+          <h1 id="furnaceCostDisplay">$100</h1><br>
+          <button type="button" id="furnaceButton"><img src="furnace.png" width="70px" height="75px"></button>
+          <p id="furnaceDisplay">Level 0</p>
+        </div>
+      </div>
+      <hr>
+      <!--
+        The donuts
+      -->
+        <div class="bread">
+          <h1> Donuts </h1><br>
+          <button type="button" id="donutButton"><img src="donut.png" width="70px" height="75px"></button>
+          <p id="donutDisplay">0</p>
+        <div><h1>Upgrade Fryer</h1><br>
+          <h1 id="donutFryerCostDisplay">$100</h1><br>
+          <button type="button" id="fryerButton"><img src="fryer.png" width="70px" height="75px"></button>
+          <p id="fryerDisplay">Level 0</p>
+        </div>
+      </div>
+        <hr>
+        <!--
+          the cupcakes
+        -->
+          <div class="bread">
+            <h1> Cupcakes </h1><br>
+            <button type="button" id="cakeButton"><img src="cupcake.png" width="70px" height="75px"></button>
+            <p id="cakeDisplay">0</p>
+          <div><h1>Upgrade Oven</h1><br>
+            <h1 id="ovenCostDisplay">$100</h1><br>
+            <button type="button" id="ovenButton"><img src="oven.png" width="70px" height="75px"></button>
+            <p id="ovenDisplay">Level 0</p>
+          </div>
+        </div><br>
+        <!--
+          The store begins here
+        -->
+        <div class="store">
+          <h1> Store </h1>
+          <p> Speed Boost: Bread </p>
+          <p id="breadSpeedStatus"> Status: Not Active</p>
+          <button type="button" id="breadSpeed"><img src="speedometer.png" width="70px" height="75px"></button>
+          <p> Cost: 3 Gems</p><br>
+          <p> Speed Boost: Donuts </p>
+          <p id="donutSpeedStatus"> Status: Not Active</p>
+          <button type="button" id="donutSpeed"><img src="speedometer.png" width="70px" height="75px"></button>
+          <p> Cost: 6 Gems</p><br>
+          <p> Speed Boost: Cupcakes </p>
+          <p id="cakeSpeedStatus"> Status: Not Active</p>
+          <button type="button" id="cakeSpeed"><img src="speedometer.png" width="70px" height="75px"></button>
+          <p> Cost: 12 Gems</p>
+        </div>
+      </center>
+    </div>
+    <script src="clickerjs.js" charset="utf-8"></script>
+  </body>
+</html>
