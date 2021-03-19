@@ -1,5 +1,5 @@
 ---
-title: Swagsite
+title: Eric Schmidt - Portfolio
 ---
--My Past Web Design Projects
-| [Wonder Website](/wonderwebsite/index_.html) | [Recipe](/recipe/indexr.html) | [Bakery Clicker](/bakeryclicker/clicker.html) | [Lame Clicker](/clicker1.html) | [LogIn](/login/login.html)
+-My Web Design Projects
+| [Website Project](/wonderwebsite/index_.html) | [Recipe Page](/recipe/indexr.html) | [Clicker Game](/bakeryclicker/clicker.html) | [LogIn](/login/login.html) | [Language180](www.language180.com)
